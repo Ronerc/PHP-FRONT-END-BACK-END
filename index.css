@@ -1,0 +1,109 @@
+
+    body {
+      background-color: #0d1117;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #161b22 !important;
+    }
+
+    .navbar a.nav-link, 
+    .navbar-brand {
+      color: #e6edf3 !important;
+    }
+
+    .navbar a.nav-link:hover {
+      color: #58a6ff !important;
+    }
+
+    .hero {
+      background: linear-gradient(180deg, #1c1f26 0%, #0d1117 100%);
+      text-align: center;
+      padding: 100px 20px;
+      border-radius: 20px;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-weight: 700;
+    }
+
+    .hero p {
+      color: #c9d1d9;
+    }
+
+    .btn-primary {
+      background-color: #238636;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .btn-primary:hover {
+      background-color: #2ea043;
+    }
+
+    .section-title {
+      color: #f0f0f0;
+      font-weight: 600;
+      border-left: 4px solid #58a6ff;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    .book-card, .course-card {
+      background-color: #161b22;
+      border-radius: 12px;
+      padding: 10px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .book-card:hover, .course-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    }
+
+    .book-card img,
+    .course-card img {
+      border-radius: 10px;
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .book-card h6, .course-card h6 {
+      color: #e6edf3;
+    }
+
+    .text-muted {
+      color: #8b949e !important;
+    }
+
+    footer {
+      background-color: #161b22;
+      padding: 40px 0;
+      text-align: center;
+      color: #8b949e;
+      font-size: 0.9rem;
+      margin-top: 60px;
+    }
+
+    footer a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .social-icons a {
+      color: #58a6ff;
+      font-size: 1.3rem;
+    }
+
+    .social-icons a:hover {
+      color: #79c0ff;
+    }
